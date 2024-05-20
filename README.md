@@ -4,27 +4,28 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# SOS MAR - Projeto Integrador
 
-## Nome do Grupo
+## Grupo LPM
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: Lucas Gutierrez, Matheus Fernandes, Pedro Schaurich Maia 
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: Fabiano Onça, Victor Quiroz
 
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="SOS MAR" border="0">
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-MCC1/Projeto7">Game Design</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-1-MCC1/Projeto7">Lucas Gutierrez, Matheus Fernandes, Pedro Schaurich Maia</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Jogo para o Projeto Integrador do 1° SEM de Ciências de Computação FECAP 2024.
 <br><br>
-May the force be with you!
+Criamos esse jogo nos baseando na ODS 14 (Vida na água) para que as pessoas tenham mais conscientização sobre os problemas que o lixo causa na vida marinha e terrestre e tenham noção de que nós podemos ajudar a solucionar esse gigante problema.
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -85,11 +86,12 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
+Para abrir este projeto é necessario instalar a Unity e o Visual Studio, ambos disponíveis abaixo.
 Para abrir este projeto você necessita das seguintes ferramentas:
 
--<a href="https://godotengine.org/download">GODOT</a>
+-<a href="https://unity.com/pt/download">Unity</a>
+<br><br>
+-<a href="https://visualstudio.microsoft.com/pt-br/downloads/">Visual Studio</a>
 
 ```sh
 make install
@@ -100,29 +102,55 @@ Coloque código do prompt de comnando se for necessário
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 20/05/2024
+    * Projeto finalizado
+* 10/05/2024
+    * Período de testes
+* 03/05/2024
+    * Correção de bugs (menus)
+* 26/04/2024
+    * Implementação do Menu de pausa
+    * Tela de início
+    * Script para o "surgimento de lixo" feito
+* 19/04/2024
+    * Movimentação do jogador concluída
+    * Movimentação do barco concluída
+    * Cenários prontos
+* 12/04/2024
+    * Primeira versão da movimentação do jogador
+    * Primeira versão da movimentação do barco
+    * Primeiros cenários
+* 29/03/2024
+    * Primeira versão do jogo
+* 22/03/2024
+    * Definição do jogo
+    * Busca por modelos e texturas
+* 15/03/2024
+    * Início do projeto
 
 ## 📋 Licença/License
-
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-MCC1/Projeto7">SOS MAR</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-1-MCC1/Projeto7">Lucas Gutierrez, Matheus Fernandes, Pedro Schaurich Maia</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. Vídeos:
+   * <https://www.youtube.com/watch?app=desktop&v=cqNBA9Pslg8>
+   * <https://www.youtube.com/watch?v=FxiRmd8MF6k>
+   * <https://www.youtube.com/watch?v=GtPWqdSYEAQ>
+   * <https://www.youtube.com/watch?v=M806dtFWI3I>
+   * <https://www.youtube.com/watch?v=MaevhxkIVqM>
+     
+2. Modelos e Texturas:
+   * <https://assetstore.unity.com/packages/tools/particles-effects/lowpoly-water-107563>
+   * <https://assetstore.unity.com/packages/3d/props/exterior/low-poly-boat-yard-128856>
+   * <https://assetstore.unity.com/packages/3d/environments/little-low-poly-world-lite-srp-urp-119111>
+   * <https://pt.3dexport.com/free-3dmodel-low-poly-trees-258353.htm>
+   * <https://assetstore.unity.com/>
+  
+3. Pesquisa sobre o tema:
+   * <https://brasil.un.org/pt-br/sdgs>
+   * <https://www.cnnbrasil.com.br/internacional/oceanos-tem-mais-de-170-trilhoes-de-particulas-de-plastico-diz-estudo/>
+   * <https://www.marinha.mil.br/combate-ao-lixo-no-mar>
+   * <https://www.nationalgeographicbrasil.com/meio-ambiente/2023/06/oceanos-abrigam-mais-de-2-milhoes-de-toneladas-de-plastico>
